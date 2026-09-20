@@ -26,11 +26,6 @@ checkstyle {
 
 test {
     useJUnitPlatform()
-    // Monocle draws to nothing, so the UI classes can be built without a display
-    systemProperty 'glass.platform', 'Monocle'
-    systemProperty 'monocle.platform', 'Headless'
-    systemProperty 'prism.order', 'sw'
-    systemProperty 'java.awt.headless', 'true'
     testLogging {
         exceptionFormat = 'full'
         events 'failed'
@@ -84,8 +79,6 @@ dependencies {
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:${jUnitVersion}"
 
-    // a headless JavaFX toolkit, so the UI classes can be tested on a runner with no display
-    testImplementation "org.testfx:openjfx-monocle:17.0.10"
 
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${jUnitVersion}"
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.14.4'
