@@ -31,6 +31,10 @@ test {
     systemProperty 'monocle.platform', 'Headless'
     systemProperty 'prism.order', 'sw'
     systemProperty 'java.awt.headless', 'true'
+    testLogging {
+        exceptionFormat = 'full'
+        events 'failed'
+    }
     finalizedBy jacocoTestReport
 }
 
