@@ -58,7 +58,7 @@ public class StudentCardTest {
 
     @Test
     public void constructor_studentWithoutEmail_leavesTheRowOut() throws Exception {
-        Student student = new StudentBuilder().withEmail(null).build();
+        Student student = new StudentBuilder().withoutEmail().build();
         Label email = emailLabelOf(student);
 
         // the row is unmanaged as well as hidden, so the card does not keep a blank line for it
@@ -69,7 +69,7 @@ public class StudentCardTest {
     @Test
     public void constructor_showsTheNameAndPhoneWhicheverWay() throws Exception {
         Student student = new StudentBuilder().withName("Ravi s/o Kumaran").withPhone("+65 9123 4567")
-                .withEmail(null).build();
+                .withoutEmail().build();
         StudentCard card = onFxThread(() -> new StudentCard(student, 7));
 
         assertEquals("Ravi s/o Kumaran", ((Label) card.getRoot().lookup("#name")).getText());
