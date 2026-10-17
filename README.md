@@ -26,6 +26,8 @@ narrowing the window is what the change under review is about.
 | `07-card-after.png` | the same two names cut from the middle, and a 23-character name left whole |
 | `08-cmdline-before.png` | a long command after the window narrows: the copy stops short and no caret is drawn |
 | `08-cmdline-after.png` | the same command and width, the copy following the field and the caret at the end |
+| `09-narrow-before.png` | the same two names on a crowded row at a 520 px window, both drawn as the same text |
+| `09-narrow-after.png` | the same, with the row's own cut taken from the middle so the two still read apart |
 
 Kept on a branch of the fork so that they are not committed to the team
 repository.
