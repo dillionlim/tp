@@ -49,3 +49,20 @@ with `master` at `40372ee5` and #364, #366 and #368 merged in.
 
 Kept on a branch of the fork so that they are not committed to the team
 repository.
+
+## v1.5
+
+Images referenced from the v1.5 pull requests (#512, #513, #514, #527). The
+diagram pairs are PlantUML 1.2024.7 renders rather than photographs; the
+application shots were taken on a virtual display at 760x620, the width the
+help pager and the start-up dialog are laid out for.
+
+| File | Shows |
+| --- | --- |
+| `v1.5/483-before.png` | `BetterModelClassDiagram` with the hidden layout edge declared twice |
+| `v1.5/483-after.png` | the same diagram with one declaration, drawn a little more compact |
+| `v1.5/484-before.png` | the add duplicate check under `skin rose`, in yellow and pink |
+| `v1.5/484-after.png` | the same flow under `style.puml`, and asking its question in the decision |
+| `v1.5/492-before.png` | the help reference in one fill: headings, syntax and prose all alike |
+| `v1.5/492-after.png` | the same reference carrying the command box's own colours |
+| `v1.5/494-load-refused.png` | the start-up refusal when a data file holds `Needs follow-up` as a tag |
