@@ -66,3 +66,15 @@ help pager and the start-up dialog are laid out for.
 | `v1.5/492-before.png` | the help reference in one fill: headings, syntax and prose all alike |
 | `v1.5/492-after.png` | the same reference carrying the command box's own colours |
 | `v1.5/494-load-refused.png` | the start-up refusal when a data file holds `Needs follow-up` as a tag |
+
+## v1.6
+
+Images referenced from the v1.6 pull requests (#570). Both are the same
+600x510 crop of a virtual display (Xvfb, 1400x900) showing the start-up
+dialog over one data file, whose second student's name line carries a `//`
+comment, with only the JAR under review changed between them.
+
+| File | Shows |
+| --- | --- |
+| `v1.6/570-data-error-excerpt-before.png` | the quoted lines in the window's proportional font, their gutters in three columns |
+| `v1.6/570-data-error-excerpt-after.png` | the same lines in a monospaced box, their gutters and indents in one column |
