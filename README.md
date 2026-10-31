@@ -88,3 +88,17 @@ index crosses from one digit to two. `master` is at `dbd0c0f8`.
 | --- | --- |
 | `v1.6/691-index-column-before.png` | names on cards 10 and 11 starting a digit's width right of those on cards 1 to 9 |
 | `v1.6/691-index-column-after.png` | the same eleven cards with every name starting at one place |
+
+The pairs for #707 are the whole window after one `add` of a student whose
+email is long enough to wrap the contact row, photographed once the list has
+stopped moving. The first pair is 740 wide by 600 tall over forty students,
+the geometry the issue measures; the second is the same window at its minimum
+height of 400 over ten students, where the card is in view for one pass before
+it grows. `master` is at `63888d2d`.
+
+| File | Shows |
+| --- | --- |
+| `v1.6/707-reveal-before.png` | card 41 cut off at the foot of the list, its email line against the edge |
+| `v1.6/707-reveal-after.png` | the same card whole, its lower edge clear of the list |
+| `v1.6/707-reveal-minimum-height-before.png` | card 11 cut off in the short window, the email line half drawn |
+| `v1.6/707-reveal-minimum-height-after.png` | the same card whole, the list having scrolled a little further |
