@@ -78,3 +78,13 @@ comment, with only the JAR under review changed between them.
 | --- | --- |
 | `v1.6/570-data-error-excerpt-before.png` | the quoted lines in the window's proportional font, their gutters in three columns |
 | `v1.6/570-data-error-excerpt-after.png` | the same lines in a monospaced box, their gutters and indents in one column |
+
+The pair for #691 is the student list panel alone, rendered at 320 wide, the
+width the list has when the window sits at its own minimum. Eleven students
+share one long name so the names compete with the index for the row, and the
+index crosses from one digit to two. `master` is at `dbd0c0f8`.
+
+| File | Shows |
+| --- | --- |
+| `v1.6/691-index-column-before.png` | names on cards 10 and 11 starting a digit's width right of those on cards 1 to 9 |
+| `v1.6/691-index-column-after.png` | the same eleven cards with every name starting at one place |
