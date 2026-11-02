@@ -102,3 +102,14 @@ it grows. `master` is at `63888d2d`.
 | `v1.6/707-reveal-after.png` | the same card whole, its lower edge clear of the list |
 | `v1.6/707-reveal-minimum-height-before.png` | card 11 cut off in the short window, the email line half drawn |
 | `v1.6/707-reveal-minimum-height-after.png` | the same card whole, the list having scrolled a little further |
+
+The pair for #760 is the top-left corner of the window with the `File` menu
+open and nothing in it picked out, cropped to 230x95 and enlarged 2.5 times
+without smoothing so that the two fills can be told apart on a page. Both were
+photographed on a virtual display (Xvfb, 1280x1024) running the sample data,
+with `master` at `476482b0` and only the JAR under review changed between them.
+
+| File | Shows |
+| --- | --- |
+| `v1.6/760-menu-item-contrast-before.png` | `Exit` in the window's near-black colour on the dropdown's grey |
+| `v1.6/760-menu-item-contrast-after.png` | the same item in the text colour the rest of the window uses |
